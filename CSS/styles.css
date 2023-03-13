@@ -1,0 +1,427 @@
+:root{
+    --primary-text-color: #2E2F42;
+    --secondary-text: #434455;
+}
+
+body {
+    font-family: 'Roboto';
+font-style: normal;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+p
+h1
+h2
+h3
+h4
+h5
+h6 {
+    margin: 0px;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width: 1158px;
+    /* border: solid tomato; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+
+
+/*                   Studio                */
+
+/* 1Section */
+
+
+
+.main-order{
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
+
+}
+
+.main-orders{
+    color: #FFFFFF;
+
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+margin: 0px;
+text-align: center;
+padding-bottom: 48px;
+}
+/*          button WebStudio */
+
+/*                                   One Section                             */
+
+.main-flex{
+    display: flex;
+    gap: 24px;
+}
+
+.main-flex .item{
+    margin-top: 120px;
+}
+
+
+.main-text{
+    color: var(--primary-text-color);
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+padding: 0px;
+margin: 0px;
+}
+
+.main-texts{
+    color: var(--secondary-text);
+
+font-weight: 400px;
+font-size: 16px;
+line-height: 1.5;
+padding: 0px;
+margin: 0px;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+/*                             Two Section                        */
+
+.discrip-text{
+    color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin: 0px;
+margin-top: 120px;
+margin-bottom: 72px;
+}
+
+.icon{
+    display: flex;
+    gap: 24px;
+}
+
+.icon-item{
+order: 0;
+flex-grow: 0;
+}
+
+/*                   section team                 */
+
+
+.team{
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+}
+
+.teams{
+    display: flex;
+    gap: 24px;
+}
+
+.team-head{
+    color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+margin-top: 120px;
+margin-bottom: 72px;
+padding: 0px;   
+}
+
+.team-heads{
+    color: var(--primary-text-color);
+    background-color: #fff;
+
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+padding-top:32px;
+padding-bottom:8px;
+margin: 0px;
+text-align: center;
+}
+
+.team-text{
+    color: var(--secondary-text);
+    background-color: #fff;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin: 0px;
+padding-bottom: 32px;
+text-align: center;
+}
+
+.team-item{
+    gap: 24px;
+}
+
+/*                        Шапка                         */
+
+.navigation{
+    display: flex;
+}
+
+.navigation .nav-li:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+
+/*                                     logo                    */
+.logo{
+    color: #4D5AE5;
+
+font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+text-decoration: none;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-right: 76px;
+}
+
+.logotwo{
+    color: #2E2F42;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.3;
+text-decoration: none;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logothree{
+    color: #F4F4FD;
+    
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/*                      NavigationText             */
+
+.navtext{
+    color: var(--primary-text-color);
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-decoration: none;
+}
+
+.navtext:hover,
+.navtext:focus{
+    color: #434455;
+}
+
+.navtext:active{
+    color: #4D5AE5;
+}
+
+/*                    Address                 */
+
+.address{
+    color: #434455;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.address-nav .add-li:not(:last-child){
+    margin-right: 40px;
+}
+
+
+.address:hover,
+.address:focus{
+    color: #4D5AE5;
+
+}
+
+.address-nav{
+    display: flex;
+    margin-left: 332px;
+}
+
+/*                             PORTFOLIO                              */
+
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item .items{
+    margin-left: 12px;
+    margin-bottom: 48px;
+
+}
+
+/*                          BUTTON                                */
+
+.ButtonMenu{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 96px;
+    margin-bottom: 72px;
+}
+
+.buttonPort{
+color: white;
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+display:flex;
+
+
+cursor: pointer;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+border:none;
+border-radius: 4px;
+padding: 12px 24px
+}
+
+.buttonPorts{
+    color: white;
+background-color: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+display:flex;
+cursor: pointer;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+border:none;
+border-radius: 4px;
+margin: auto;
+}
+
+
+.buttonPort:hover,
+.buttonPort:focus{
+    background-color: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.buttonPort:active{
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button{
+    margin: auto;
+}
+
+
+/*                        SectionTwo                               */
+
+
+.headtext{
+    color: #2E2F42;
+
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+margin-top: 0px;
+margin-bottom: 32px;
+
+
+}
+
+.describtext{
+    color: #434455;
+    
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-top: 32px;
+margin-bottom: 8px;
+
+}
+
+
+/* **********************Footer **************** */
+
+.footers{
+color: #E7E9FC;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-left: 24px;
+margin-top: 17.5px;
+width: 264px;
+height: 72px;
+}
+
+.footer{
+    background-color: #2E2F42;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+}
+
+.footer-end{
+    margin-left: 24px;
+}
