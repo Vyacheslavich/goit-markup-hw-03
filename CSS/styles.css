@@ -38,17 +38,16 @@ img{
 
 .main-nav{
     display: flex;
-    padding-top: 12px;
-    padding-bottom: 12px;
-
 }
 
 
 
+
+.headers {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 /*                   Studio                */
-
-/* 1Section */
-
 
 
 .main-order{
@@ -73,15 +72,17 @@ padding-bottom: 48px;
 
 /*                                   One Section                             */
 
+.main-description{
+    padding-top: 120px;
+}
+
 .main-flex{
     display: flex;
-    gap: 24px;
 }
 
-.main-flex .item{
-    margin-top: 120px;
+.main-flex .item:not(:last-child){
+    margin-right: 24px;
 }
-
 
 .main-text{
     color: var(--primary-text-color);
@@ -91,16 +92,25 @@ font-size: 20px;
 line-height: 1.2;
 padding: 0px;
 margin: 0px;
+width: 264px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-bottom: 8px;
 }
 
 .main-texts{
     color: var(--secondary-text);
-
-font-weight: 400px;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 padding: 0px;
 margin: 0px;
+letter-spacing: 0.02em;
+
+width: 264px;
+height: 72px;
 
 
 flex: none;
@@ -112,6 +122,10 @@ flex-grow: 0;
 
 
 /*                             Two Section                        */
+
+.icons{
+    padding-bottom: 120px;
+}
 
 .discrip-text{
     color: var(--primary-text-color);
@@ -143,6 +157,7 @@ flex-grow: 0;
 .team{
     background-color: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .teams{
@@ -159,7 +174,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-margin-top: 120px;
+margin: 0px;
 margin-bottom: 72px;
 padding: 0px;   
 }
@@ -172,7 +187,6 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding-top:32px;
 padding-bottom:8px;
 margin: 0px;
 text-align: center;
@@ -187,12 +201,18 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin: 0px;
-padding-bottom: 32px;
 text-align: center;
 }
 
 .team-item{
     gap: 24px;
+    background-color: white;
+}
+
+.team-texts{
+    padding-top: 32px;
+    padding-bottom: 32px;;
+
 }
 
 /*                        Шапка                         */
@@ -314,7 +334,7 @@ text-decoration: none;
 
 /*                          BUTTON                                */
 
-.ButtonMenu{
+.buttonmenu{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -322,9 +342,9 @@ text-decoration: none;
     margin-bottom: 72px;
 }
 
-.buttonPort{
-color: white;
-background-color: #4D5AE5;
+.buttonport{
+color: #4D5AE5;
+background-color: white;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 display:flex;
@@ -340,12 +360,14 @@ border-radius: 4px;
 padding: 12px 24px
 }
 
-.buttonPorts{
+.buttonports{
     color: white;
 background-color: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+display: flex;
+align-items: center;
+justify-content: center;
 
-display:flex;
 cursor: pointer;
 
 font-weight: 600;
@@ -354,18 +376,27 @@ line-height: 1.5;
 border:none;
 border-radius: 4px;
 margin: auto;
+width: 169px;
+height: 56px;
+left: 636px;
+top: 428px;
 }
 
 
-.buttonPort:hover,
-.buttonPort:focus{
-    background-color: #4D5AE5;
+.buttonport:hover,
+.buttonport:focus{
+    background-color: #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
-.buttonPort:active{
+.buttonport:active{
+    color: #F4F4FD;
     background: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.buttonports:hover{
+    background-color: #404BBF;
 }
 
 .button{
@@ -410,18 +441,15 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-left: 24px;
-margin-top: 17.5px;
+margin: 0px;
+margin-top: 16px;
 width: 264px;
 height: 72px;
+margin-right: 0px;
 }
 
 .footer{
     background-color: #2E2F42;
     padding-top: 101.5px;
     padding-bottom: 100px;
-}
-
-.footer-end{
-    margin-left: 24px;
 }
